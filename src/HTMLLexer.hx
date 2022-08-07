@@ -139,7 +139,8 @@ class HTMLLexer
             {
                 case " ":
                     break;
-                case
+                default:
+                    continue;
             }
         }
     }

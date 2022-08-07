@@ -30,7 +30,7 @@ abstract NodeList(Array<Node>) {
      *  @param index -
      *  @return dom.Node
      */
-    public function item(index:Int):Node {
+    public function item(index:Null<Int>):Node {
         if (index == null)
             throw new TypeError("index cannot be null in call to item");
 
