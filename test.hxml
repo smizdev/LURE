@@ -1,3 +1,4 @@
+-L hx3compat
 -cp src
 -main TestRunner
 --interp
